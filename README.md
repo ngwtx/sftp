@@ -1,8 +1,7 @@
 # SFTP
 
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/atmoz/sftp/build?logo=github) ![GitHub stars](https://img.shields.io/github/stars/atmoz/sftp?logo=github) ![Docker Stars](https://img.shields.io/docker/stars/atmoz/sftp?label=stars&logo=docker) ![Docker Pulls](https://img.shields.io/docker/pulls/atmoz/sftp?label=pulls&logo=docker)
-
-![OpenSSH logo](https://raw.githubusercontent.com/atmoz/sftp/master/openssh.png "Powered by OpenSSH")
+zbank sftp sev build 
+server：220.249.114.147:44044
 
 # Supported tags and respective `Dockerfile` links
 
@@ -67,6 +66,10 @@ sftp:
 ### Logging in
 
 The OpenSSH server runs by default on port 22, and in this example, we are forwarding the container's port 22 to the host's port 2222. To log in with the OpenSSH client, run: `sftp -P 2222 foo@<host-ip>`
+
+
+### Auth in
+The OpenSSH server default password is qwedcvbhuio
 
 ## Store users in config
 
