@@ -1,7 +1,6 @@
 # SFTP
 
 zbank sftp sev build 
-server：220.249.114.147:44044
 
 # Supported tags and respective `Dockerfile` links
 
@@ -65,11 +64,11 @@ sftp:
 
 ### Logging in
 
-The OpenSSH server runs by default on port 22, and in this example, we are forwarding the container's port 22 to the host's port 2222. To log in with the OpenSSH client, run: `sftp -P 2222 foo@<host-ip>`
+The OpenSSH server runs by default on port 22, and in this example, we are forwarding the container's port 22 to the host's port 44044. To log in with the OpenSSH client, run: `sftp -P 44044 sftpuser@220.249.114.147`
 
 
 ### Auth in
-The OpenSSH server default password is qwedcvbhuio
+The OpenSSH server default password is 1qazcde3
 
 ## Store users in config
 
